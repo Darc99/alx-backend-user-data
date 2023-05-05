@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Authentication module for the API.
 """
-import os
 import re
 from typing import List, TypeVar
 from flask import request
+import os
 
 
 class Auth:
